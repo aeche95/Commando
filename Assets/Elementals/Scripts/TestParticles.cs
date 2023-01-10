@@ -236,7 +236,7 @@ public class TestParticles : MonoBehaviour {
 			// Remove Old particle
 			if(m_CurrentParticle!=null)
 			{
-				DestroyObject(m_CurrentParticle);
+				Destroy(m_CurrentParticle);
 			}
 	
 			// Create new particle
